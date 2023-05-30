@@ -3,6 +3,7 @@
   --text-color: #434455;
   --second-text-color: #ffffff;
   --accent-color: #4d5ae5;
+  --btn-color: #f4f4fd;
 }
 
 body {
@@ -204,7 +205,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--second-text-color);
+  color: var(--accent-color);
+  background-color: var(--btn-color);
   cursor: pointer;
 }
 .portfolio-btn:hover,
