@@ -34,7 +34,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo span {
+.header-logo-span {
   color: #2e2f42;
 }
 .header-menu {
@@ -158,6 +158,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.products-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.products-list {
+}
+.list {
+}
+.products-item {
+}
 /*---------------FOOTER--------------- */
 .footer {
   background-color: var(--title-color);
@@ -171,7 +186,7 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.footer-logo span {
+.footer-logo-span {
   color: #f4f4fd;
 }
 .link {
@@ -194,7 +209,8 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #4d5ae5;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .portfolio {
 }
